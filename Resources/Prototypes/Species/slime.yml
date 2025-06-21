@@ -16,6 +16,10 @@
     Hair: MobSlimeMarkingFollowSkin
     FacialHair: MobSlimeMarkingFollowSkin
     Chest: MobSlimeTorso
+#LOP edit start
+    HeadTop: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+#LOP edit end
     Eyes: MobHumanoidEyes
     LArm: MobSlimeLArm
     RArm: MobSlimeRArm

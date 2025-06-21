@@ -25,7 +25,7 @@
     minAngle: -43
     maxAngle: -43
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4.5
+    rechargeCooldown: 4.25
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletPibodi
@@ -204,7 +204,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 0.8
+    fireRate: 0.45
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 2
@@ -214,7 +214,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4.25
+    rechargeCooldown: 6
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletchargebarrage
@@ -262,7 +262,7 @@
     size: Small
   - type: AmmoCounter
   - type: Gun
-    fireRate: 3.5
+    fireRate: 1.5
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 2

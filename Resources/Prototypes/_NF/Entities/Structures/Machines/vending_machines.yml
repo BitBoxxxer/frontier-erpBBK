@@ -829,6 +829,10 @@
   - type: AccessReader
     access: [["Mercenary"], ["Security"], ["HeadOfPersonnel"], ["HeadOfSecurity"]]
   - type: ActivatableUIRequiresAccess
+#LOP edit start
+  - type: MarketModifier
+    mod: 60
+#LOP edit end
 
 #region DEBUG
 - type: entity

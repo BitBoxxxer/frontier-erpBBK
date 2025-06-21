@@ -17,6 +17,20 @@
     NFAmmunitionBoxRifle30: 6
     NFAmmunitionBoxShellShotgunBuckshot: 6
     NFAmmunitionBoxShellShotgunBeanbag: 6
+    # LOP edit start
+    LPPWeaponPistolM1911: 1
+    LPPWeaponMarsRifle: 2
+    LPPWeaponM1Garand: 2
+    LPPMagazineRifleGarand: 2
+    LPPMagazineRifleMars: 2
+    LPPMagazineBoxHunting: 1
+    NFWeaponRifleSVS: 1
+    LPPWeaponRifleLemasciv: 1
+    NFMagazineRifle20: 2
+    LPPWeaponShotgunPredsedatel: 1
+    LPPMagazineShotgunPredsedatelEmpty: 2
+    NFMagazinePistol35: 4
+    # LOP edit end
 
 - type: vendingMachineInventory
   id: PickNPackPOIInventory
@@ -37,3 +51,17 @@
     NFAmmunitionBoxRifle30: 4294967295
     NFAmmunitionBoxShellShotgunBuckshot: 4294967295
     NFAmmunitionBoxShellShotgunBeanbag: 4294967295
+    # LOP edit start
+    LPPWeaponPistolM1911: 4294967295
+    LPPWeaponMarsRifle: 4294967295
+    LPPWeaponM1Garand: 4294967295
+    LPPMagazineRifleGarand: 4294967295
+    LPPMagazineRifleMars: 4294967295
+    LPPMagazineBoxHunting: 4294967295
+    NFWeaponRifleSVS: 4294967295
+    LPPWeaponRifleLemasciv: 4294967295
+    NFMagazineRifle20: 4294967295
+    LPPWeaponShotgunPredsedatel: 4294967295
+    LPPMagazineShotgunPredsedatelEmpty: 4294967295
+    NFMagazinePistol35: 4294967295
+    # LOP edit end
