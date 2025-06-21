@@ -26,9 +26,9 @@ public sealed partial class MagbootsComponent : Component
 
     // LOP edit start
     [DataField]
-    public SoundSpecifier SoundOn = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/nvg_on.ogg");
+    public SoundSpecifier SoundOn = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/magboots_on.ogg");
 
     [DataField]
-    public SoundSpecifier SoundOff = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/nvg_off.ogg");
+    public SoundSpecifier SoundOff = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/magboots_off.ogg");
     // LOP edit end
 }
