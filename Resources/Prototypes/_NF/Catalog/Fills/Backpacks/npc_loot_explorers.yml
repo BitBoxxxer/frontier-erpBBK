@@ -34,7 +34,7 @@
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.1
+      prob: 0.02
     # LOP edit end
     # Items
     - id: SpawnDungeonLootMaterialsBasicFull
@@ -69,7 +69,7 @@
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.1
+      prob: 0.02
     # LOP edit end
     # Items
     - id: SpawnDungeonLootClutterEngi
@@ -106,7 +106,7 @@
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.4
+      prob: 0.05
     # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitSpatio
@@ -155,9 +155,9 @@
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.4
+      prob: 0.1
     - id: LPPweaponShasspo
-      prob: 0.2
+      prob: 0.15
     # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitSpatio
@@ -208,10 +208,10 @@
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.6
+      prob: 0.1
     - id: LPPweaponManlicher
       # LOP edit end
-      prob: 0.2
+      prob: 0.1
     # Armor
     - id: ClothingOuterHardsuitSalvage
       prob: 0.3
@@ -267,9 +267,9 @@
       amount: 2
     # LOP edit start
     - id: LPPweaponSchwarzlose
-      prob: 0.6
-    - id: LPPweaponPibodi
       prob: 0.2
+    - id: LPPweaponPibodi
+      prob: 0.1
     # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitLuxury
@@ -334,15 +334,15 @@
       amount: 1
     # LOP edit start
     - id: LPPWeaponSyndieGlaive
-      prob: 0.3
+      prob: 0.15
     - id: LPPweaponShasspo
-      prob: 0.7
+      prob: 0.35
     - id: LPPweaponManlicher
-      prob: 0.5
+      prob: 0.25
     - id: LPPweaponPibodi
-      prob: 0.5
+      prob: 0.25
     - id: LPPweaponLebel
-      prob: 0.3
+      prob: 0.15
     # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitMaximPrototype

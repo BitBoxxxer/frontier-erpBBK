@@ -127,17 +127,17 @@
   - type: AmmoCounter
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 0.9
+    delay: 1.55 #LOP edit
   - type: LeechOnMarker
     leech:
       groups:
-        Brute: -10
+        Brute: -7.5 #LOP edt
   - type: Gun
     soundGunshot: /Audio/Weapons/plasma_cutter.ogg
     fireRate: 1
     useKey: false
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 0.5
+    rechargeCooldown: 1.45 #LOP edit
     rechargeSound:
       path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
@@ -213,11 +213,11 @@
     - Back
     - suitStorage
   - type: UseDelay
-    delay: 1.9
+    delay: 1.5 #LOP edit
   - type: LeechOnMarker
     leech:
       groups:
-        Brute: -21
+        Brute: -14 #LOP edit
   - type: MeleeWeapon
   - type: Tag
     tags:
