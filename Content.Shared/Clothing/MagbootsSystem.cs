@@ -43,7 +43,7 @@ public sealed class SharedMagbootsSystem : EntitySystem
             // LOP edit start
             UpdateMagbootEffects(container.Owner, ent, args.Activated);
             if (args.Activated == true)
-                _audio.PlayLocal(comp.SoundOff, uid, uid);
+                _audio.PlayLocal(comp.SoundOn, uid, uid);
             else
                 _audio.PlayLocal(comp.SoundOff, uid, uid);
             // LOP edit end
