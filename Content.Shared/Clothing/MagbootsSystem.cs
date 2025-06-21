@@ -40,8 +40,8 @@ public sealed class SharedMagbootsSystem : EntitySystem
             _inventory.TryGetSlotEntity(container.Owner, comp.Slot, out var worn)
             && uid == worn)
         {
-            // LOP edit start
             UpdateMagbootEffects(container.Owner, ent, args.Activated);
+            // LOP edit start
             if (args.Activated == true)
                 _audio.PlayLocal(comp.SoundOn, uid, uid);
             else
