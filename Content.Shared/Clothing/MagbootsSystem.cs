@@ -8,6 +8,7 @@ using Content.Shared.Item;
 using Content.Shared.Item.ItemToggle;
 using Content.Shared.Item.ItemToggle.Components;
 using Robust.Shared.Containers;
+using Robust.Shared.Audio.Systems; // LOP edit
 
 namespace Content.Shared.Clothing;
 
@@ -18,6 +19,7 @@ public sealed class SharedMagbootsSystem : EntitySystem
     [Dependency] private readonly ItemToggleSystem _toggle = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedGravitySystem _gravity = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!; // LOP edit
 
     public override void Initialize()
     {
@@ -38,7 +40,13 @@ public sealed class SharedMagbootsSystem : EntitySystem
             _inventory.TryGetSlotEntity(container.Owner, comp.Slot, out var worn)
             && uid == worn)
         {
+            // LOP edit start
             UpdateMagbootEffects(container.Owner, ent, args.Activated);
+            if (args.Activated == true)
+                _audio.PlayLocal(comp.SoundOff, uid, uid);
+            else
+                _audio.PlayLocal(comp.SoundOff, uid, uid);
+            // LOP edit end
         }
     }
 

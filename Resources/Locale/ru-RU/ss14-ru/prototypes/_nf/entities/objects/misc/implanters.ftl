@@ -1,4 +1,4 @@
-ent-MedicalTrackingImplanter = { ent-BaseImplantOnlyImplanter }
+ent-MedicalTrackingImplanter = имплант мед. отслеживания
     .suffix = медицинское отслеживание
     .desc = { ent-BaseImplantOnlyImplanter.desc }
 ent-FreelanceTrackingImplanter = { ent-BaseImplantOnlyImplanterSyndi }
